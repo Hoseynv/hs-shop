@@ -1,0 +1,98 @@
+@import url(css/grid-system.css);
+@import url(css/resets.css);
+
+.main-nav div>a {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.main-nav {
+    padding: 10px 0 20px 0;
+}
+
+.main-nav span {
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.main-nav span a {
+    padding: 5px;
+}
+
+.products-sec{
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(150, 150, 150);
+}
+
+.card-header::before{
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    right: 10px;
+    content: "پیشنهاد ویژه";
+    display: inline-block;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ededed;
+}
+
+.card-body {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-footer {
+    margin: 20px 0 0 0;
+}
+.card-footer span:first-child{
+    display: inline-block;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.card-footer span:not(:first-child) {
+    width: 38px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(47, 255, 82);
+    border-radius: 50px;
+    color: white;
+    transition: width 1s ease-in;
+    margin: 3px;
+}
+.card-footer span:not(:first-child):hover {
+    width: 60px;
+}
+
+.main-footer{
+    margin-top: 20px;
+    background-color: rgb(89, 89, 89)!important;
+    color: rgb(245, 245, 245);
+    text-align: justify;
+    height: 300px;
+}
+
+.social-div a{
+    text-align: center;
+    color: #fff;
+    padding: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .main-footer{
+        height: 380px;
+
+    }
+    
+}
